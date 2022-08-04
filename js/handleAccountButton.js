@@ -6,7 +6,7 @@ function handleSignInButton() {
 }
 
 function handleSignUpButton() {
-  location.href = "../html/signupPage.html";
+  location.href = "../html/signUp.html";
 }
 
 signInButton.addEventListener("click", handleSignInButton);
