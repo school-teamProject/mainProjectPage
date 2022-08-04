@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin:0; padding:0;
+}
+body{background-color: white;}
+.bodyWrapper{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 500px 1fr;
+}
+.loginWrapper{
+    display:grid; 
+    grid-template-columns: 1fr 450px 1fr;
+}
+.loginContentWrapper{
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    background-color: white;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    text-align: center;
+}
+#signIn{
+    font-size: 1rem;
+    font-weight: 550;
+}
+/* .profile{
+    border: 1px solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+} */
+
